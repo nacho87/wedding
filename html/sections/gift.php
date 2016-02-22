@@ -1,5 +1,6 @@
 <section class="gift">
-	<div class="gift__background" style="background-image:url(https://images.unsplash.com/photo-1444665283089-f1f68ad1d1dc?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=de5c65b0a12e6eac042c421ea2c5d1fb);">
+	<div class="section__background" style="background-image:url(https://images.unsplash.com/photo-1444665283089-f1f68ad1d1dc?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=de5c65b0a12e6eac042c421ea2c5d1fb);">
+		<div class="mask"></div>
 	</div>
 	<div class="wrap">
 		<h2 class="gift__title">HACENOS UN REGALO ;)</h2>
