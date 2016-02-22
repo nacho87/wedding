@@ -1,28 +1,37 @@
 /* =Variables
 -------------------------------------------------------------- */
-$_yellow: #ffF000;
-$_pink: #F0648B;
-$_gray:#f8f8f8;
-$_dark-blue: #253645;
-$_near-white:#fefefe;
-$_moxie-blue: #375167;
 
-$primary-color: $_yellow;
-$secondary-color: $_pink;
+$roboto: 'Roboto', sans-serif;
+
+$_red: #BD0A00;
+$_grey: #292929;
+$_grey2: #666666;
+$_white: #FFFFFF;
+$_black: #000000;
+
+// $_yellow: #ffF000;
+// $_pink: #F0648B;
+// $_gray:#f8f8f8;
+// $_dark-blue: #253645;
+// $_near-white:#fefefe;
+// $_moxie-blue: #375167;
+
+$primary-color: $_grey2;
+$secondary-color: $_red;
 
 
-$post-link-color:$secondary-color;
-$icon-color: $secondary-color;
-$link-color: $_dark-blue;
-$comment-background: $_gray;
-$comment-border: $_near-white;
+// $post-link-color:$secondary-color;
+// $icon-color: $secondary-color;
+$link-color: $_red;
+// $comment-background: $_gray;
+// $comment-border: $_near-white;
 
-$button-color: $_near-white;
+// $button-color: $_near-white;
 
-$comment-textarea-border: $_dark-blue;
-$comment-notes: $_dark-blue;
-$menu-color:$_moxie-blue;
-$input-border-color: $_dark-blue;
+// $comment-textarea-border: $_dark-blue;
+// $comment-notes: $_dark-blue;
+// $menu-color:$_moxie-blue;
+// $input-border-color: $_dark-blue;
 
-$title: $helvetica;
-$content: $georgia;
+$title: $roboto;
+$content: $roboto;

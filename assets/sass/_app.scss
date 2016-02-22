@@ -51,6 +51,9 @@ Tags:
 @import "../../bower_components/bourbon/app/assets/stylesheets/addons/clearfix";
 @import "../../bower_components/bourbon/app/assets/stylesheets/addons/prefixer";
 @import "../../bower_components/bourbon/app/assets/stylesheets/addons/font-family";
+@import "components/button";
+@import "components/shadow";
+
 
 /*--------------------------------------------------------------
 6.0 Layout and Structure
@@ -60,8 +63,8 @@ Tags:
 /*--------------------------------------------------------------
 7.0 Modules
 --------------------------------------------------------------*/
-@import "modules/content";
-@import "modules/header";
-@import "modules/footer";
-@import "modules/comments";
-@import "modules/menu";
+@import "modules/hero-banner";
+@import "modules/party";
+@import "modules/gift";
+@import "modules/instagram";
+@import "modules/contact";

@@ -102,13 +102,9 @@ strong, b {
   color: #000;
   font-family: $title;
 }
-a, a:visited {
+a {
   color: $link-color;
   text-decoration: none;
-
-  &:hover {
-    color: lighten($link-color, 15%);;
-  }
 }
 ul {
   @extend %default-ul; // Adds browser default spacing back

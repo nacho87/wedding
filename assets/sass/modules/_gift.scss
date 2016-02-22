@@ -1,0 +1,36 @@
+.gift{
+  text-align: center;
+  @include padding(120px 0);
+  color: $_white;
+  position: relative;
+
+  &__background{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    filter: grayscale(0.5);
+    @include position(absolute, 0);
+    z-index: 0;
+  }
+
+  .wrap{
+    position: relative;
+    z-index: 1;
+  }
+
+  &__title{
+    font-weight: 400;
+    @include fontSize(40px);
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    @extend .shadow;
+  }
+
+  &__details{
+    p{
+      @include fontSize(16px);
+      @extend .shadow;
+    }
+  }
+}

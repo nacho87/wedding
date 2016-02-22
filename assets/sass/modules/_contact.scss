@@ -1,0 +1,16 @@
+.contact{
+  @include padding(64px 0);
+  text-align: center;
+  background-color: $_grey;
+
+  &__title{
+    @include fontSize(32px);
+    font-weight: 300;
+    color: $_white;
+  }
+
+  .button{
+    @include fontSize(12px);
+    text-transform: uppercase;
+  }
+}
