@@ -1,4 +1,41 @@
 .instagram{
   text-align: center;
   background-color: $_white;
+  @include padding(100px 0);
+
+  &__title{
+    @include fontSize(32px);
+    font-weight: 300;
+    letter-spacing: 6px;
+    margin-bottom: 20px;
+  }
+
+  &__details{
+    margin-bottom: 50px;
+  }
+
+  &__grid{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    li{
+      width: 19%;
+      margin-bottom: 10px;
+
+      &:nth-child(5n){
+        margin-right: 0;
+      }
+    }
+
+    figure{
+      margin: 0;
+    }
+
+    img{
+      display: block;
+    }
+  }
 }

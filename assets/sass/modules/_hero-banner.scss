@@ -1,3 +1,42 @@
 .hero{
   text-align: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: $_white;
+
+  .wrap{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+
+    &:after{
+      display: none;
+    }
+  }
+
+  &__title{
+    color: $_white;
+    @extend .shadow;
+    font-weight: 300;
+  }
+
+  &__details{
+    width: 100%;
+    p{
+      @extend .shadow;
+    }
+  }
+
+  &__countdown{
+    @include fontSize(56px);
+    width: 100%;
+    margin-bottom: 40px;
+    font-weight: 300;
+    text-transform: uppercase;
+  }
 }

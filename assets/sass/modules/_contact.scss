@@ -8,9 +8,4 @@
     font-weight: 300;
     color: $_white;
   }
-
-  .button{
-    @include fontSize(12px);
-    text-transform: uppercase;
-  }
 }

@@ -1,3 +1,39 @@
 .party{
   text-align: center;
+  @include padding(100px 0);
+  background-color: $_white;
+
+  &__container{
+    display: flex;
+  }
+
+  &__single{
+    width: 50%;
+    margin-right: 20px;
+    @include padding(0 10px);
+
+    &:last-child{
+      margin-right: 0;
+    }
+
+    &__title{
+      @include fontSize(24px);
+      letter-spacing: 3px;
+      color: $_grey;
+      text-transform: uppercase;
+      margin-bottom: 24px;
+      font-weight: 300;
+    }
+
+    &__details{
+      margin-bottom: 15px;
+      p{
+        @include fontSize(13px);
+        line-height: 24px;
+        color: $_grey2;
+      }
+    }
+  }
+
+
 }

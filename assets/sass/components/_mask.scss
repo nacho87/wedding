@@ -1,0 +1,5 @@
+.mask{
+  background-color: $_black;
+  @include position(absolute, 0);
+  opacity: 0.3;
+}

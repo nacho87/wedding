@@ -9,9 +9,14 @@
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
-    filter: grayscale(0.5);
     @include position(absolute, 0);
     z-index: 0;
+  }
+
+  &__mask{
+    background-color: $_black;
+    @include position(absolute, 0);
+    opacity: 0.3;
   }
 
   .wrap{
@@ -20,7 +25,7 @@
   }
 
   &__title{
-    font-weight: 400;
+    font-weight: 300;
     @include fontSize(40px);
     text-transform: uppercase;
     letter-spacing: 10px;
